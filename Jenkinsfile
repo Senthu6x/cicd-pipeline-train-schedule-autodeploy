@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "Senthu6x/train-schedule"
+        DOCKER_IMAGE_NAME = "senthu6x/train-schedule"
     }
     stages {
         stage('Build') {
